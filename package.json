@@ -1,0 +1,32 @@
+{
+  "name": "self-start",
+  "version": "1.0.0",
+  "description": "\"Webapp Connecting end-to-end\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: No test specified\\\" $$ exit 1\" ",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohith47/self-start.git"
+  },
+  "keywords": [
+    "\"Restful\"",
+    "\"basic\"",
+    "\"starterWebApp\""
+  ],
+  "author": "\"Rohith Ranade\", \"Vishnu\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rohith47/self-start/issues"
+  },
+  "homepage": "https://github.com/Rohith47/self-start#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.11"
+  }
+}
