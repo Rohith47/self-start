@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MY APP</title>
+
+</head>
+<body>
+    <div>
+        <h2>Tasks</h2>
+        <select id="task_list">
+            <% for(var j=0; j<tasks.length; j++) {%>
+            <option value="<%= tasks[j].id%>"><%= tasks[j].name %></option>
+            <% } %>
+        </select>
+        <form action="/tasks" method="POST" id="task_form">
+            <input type="text" placeholder="Please enter Task Name" name="name" id="name">
+            <button type="submit">Create</button>
+            <button id="update"> update </button>
+            <button id="delete"> delete </button>
+        </form>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
