@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Rohith47/self-start#readme",
   "devDependencies": {
+    "ejs": "^2.5.7",
     "nodemon": "^1.12.1"
   },
   "dependencies": {
