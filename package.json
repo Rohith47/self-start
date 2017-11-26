@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/Rohith47/self-start#readme",
   "devDependencies": {
+    "csvtojson": "^1.1.9",
     "ejs": "^2.5.7",
+    "ml-regression": "^4.4.2",
     "nodemon": "^1.12.1"
   },
   "dependencies": {
